@@ -1,5 +1,4 @@
 
-
 # Clases Jhoan Martinez
 # Febrero 25 - 2023 
 # Objetivo, cortar para los datos para el área de estudio del IDEAm
@@ -63,19 +62,35 @@ extract_mask(file = fles[3], year = 2005)
 # 2010
 extract_mask(file = fles[4], year = 2010)
 
+# 2012
+extract_mask(file = fles[8], year = 2012)
 
+# 2013 
+extract_mask(file = grep('2013', fles, value = T), year = 2013)
 
+# 2014 
+extract_mask(file = grep('2014', fles, value = T), year = 2014)
 
+# 2015
+extract_mask(file = grep('2015', fles, value = T), year = 2015)
 
+# 2016
+extract_mask(file = grep('2016', fles, value = T), year = 2016)
 
+# 2017
+extract_mask(file = grep('2017', fles, value = T), year = 2017)
 
+# 2018
+extract_mask(file = grep('2018', fles, value = T), year = 2018)
 
+# 2019
+extract_mask(file = grep('2019', fles, value = T), year = 2019)
 
+# 2020
+extract_mask(file = grep('2020', fles, value = T), year = 2020)
 
-
-
-
-
+# 2021
+extract_mask(file = grep('2021', fles, value = T), year = 2021)
 
 
 
