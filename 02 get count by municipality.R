@@ -79,6 +79,11 @@ make_count <- function(fle){
 # Apply the function make_count -------------------------------------------
 rslt <- map(.x = fles, .f = make_count)
 
+# Apply the function make_count -------------------------------------------
+rslt <- map(.x = fles, .f = make_count)
+rslt <- bind_rows(rslt)
+write.csv(rslt, 'data/tbl/ideam/freq_bqnbq_allyears.csv', row.names = FALSE)
+
 
 
 
