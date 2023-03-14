@@ -74,7 +74,9 @@ proj <- '+proj=tmerc +lat_0=4.59620041666667 +lon_0=-77.0775079166667 +k=1 +x_0=
 
 # Contar area bsoque no bosque por anio -----------------------------------
 rslt <- map(cdes, make_count)
+rslt <- bind_rows(rslt)
 
+write.csv(rslt, 'data/tbl/hansen/forest_noforest_mpio.csv', row.names = FALSE)
 
 
 
